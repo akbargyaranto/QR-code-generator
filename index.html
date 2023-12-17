@@ -10,18 +10,15 @@
 </head>
 <body>
     <div class="container">
-        <h2>QR Code Generator
-            stillness
-        </h2>
+        <h2>QR Code Generator</h2>
         <label for="text-input">Enter text or URL:</label>
         <input type="text" id="text-input">
         <button onclick="generateQRCode()">Generate QR Code</button>
         <canvas id="qrcode"></canvas>
-       <!-- Update elemen <a> untuk unduhan QR Code -->
-<a id="download-link" class="download-link" style="display: none" download="qrcode.png">
-    <i class="fas fa-download"></i> Download QR Code
- </a>
- 
+        <!-- Update elemen <a> untuk unduhan QR Code -->
+            <a id="download-link" class="download-link" style="display: none" download="qrcode.png">
+                <i class="fas fa-download"></i> Download QR Code
+            </a>
     </div>
 
     <script src="qrious.min.js"></script>

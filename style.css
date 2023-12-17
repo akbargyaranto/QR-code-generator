@@ -1,13 +1,4 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+
 
 .container {
     text-align: center;
@@ -18,7 +9,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: white;
 }
 
 label {
@@ -36,8 +27,8 @@ input {
 
 button {
     padding: 12px 24px;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: white;
+    color:black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -46,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d0d0d0;
 }
 
 canvas {
@@ -65,8 +56,8 @@ canvas {
     margin-top: 20px;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: white;
+    color: black;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
@@ -76,5 +67,35 @@ canvas {
 }
 
 .download-link:hover {
-    background-color: #45a049;
+    background-color: #d0d0d0;
+}
+
+
+h2 {
+    color: white;
+}
+
+label {
+    color: white;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('bg4.jpg') center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: transparent; /* Latar belakang putih dengan transparansi */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
